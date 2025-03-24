@@ -9,8 +9,33 @@
 </head>
 <body>
 
-    <!-- Canvas untuk Efek CMatrix -->
-    <canvas id="matrixCanvas"></canvas>
+<!-- Login Page -->
+<section id="login-page" class="auth-page">
+    <h2>Login</h2>
+    <form id="login-form">
+        <input type="email" id="login-email" placeholder="Email" required>
+        <input type="password" id="login-password" placeholder="Password" required>
+        <button type="submit">Login</button>
+    </form>
+    <p>Belum punya akun? <a href="#" onclick="showSignUp()">Daftar</a></p>
+</section>
+
+<!-- Sign Up Page -->
+<section id="signup-page" class="auth-page">
+    <h2>Sign Up</h2>
+    <form id="signup-form">
+        <input type="email" id="signup-email" placeholder="Email" required>
+        <input type="password" id="signup-password" placeholder="Password" required>
+        <button type="submit">Sign Up</button>
+    </form>
+    <p>Sudah punya akun? <a href="#" onclick="showLogin()">Login</a></p>
+</section>
+
+<!-- Account Page -->
+<section id="account-page" class="auth-page">
+    <h2>Welcome, <span id="user-email"></span>!</h2>
+    <button onclick="logout()">Logout</button>
+</section>
 
     <!-- Navbar -->
     <nav id="navbar">
