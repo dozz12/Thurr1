@@ -133,3 +133,52 @@ input, textarea, button {
     object-fit: cover;
     transition: transform 0.
 
+/* Style untuk Halaman Login & Sign Up */
+.auth-page {
+    display: none;
+    text-align: center;
+    padding: 50px;
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 255, 0, 0.5);
+    border-radius: 8px;
+}
+
+.auth-page input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+.auth-page button {
+    width: 100%;
+    padding: 10px;
+    background: #0F0;
+    border: none;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.auth-page a {
+    color: #0F0;
+    text-decoration: none;
+}
+
+.auth-page a:hover {
+    text-decoration: underline;
+}
+
+/* Tampilkan Login saat awal */
+#login-page {
+    display: block;
+}
+
