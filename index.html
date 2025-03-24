@@ -9,45 +9,7 @@
 </head>
 <body>
 
-<!-- Login Page -->
-<section id="login-page" class="auth-page">
-    <h2>Login</h2>
-    <form id="login-form">
-        <input type="email" id="login-email" placeholder="Email" required>
-        <input type="password" id="login-password" placeholder="Password" required>
-        <button type="submit">Login</button>
-    </form>
-    <p>Belum punya akun? <a href="#" onclick="showSignUp()">Daftar</a></p>
-</section>
-
-<!-- Sign Up Page -->
-<section id="signup-page" class="auth-page">
-    <h2>Sign Up</h2>
-    <form id="signup-form">
-        <input type="email" id="signup-email" placeholder="Email" required>
-        <input type="password" id="signup-password" placeholder="Password" required>
-        <button type="submit">Sign Up</button>
-    </form>
-    <p>Sudah punya akun? <a href="#" onclick="showLogin()">Login</a></p>
-</section>
-
-<!-- Account Page -->
-<section id="account-page" class="auth-page">
-    <h2>Welcome, <span id="user-email"></span>!</h2>
-    <button onclick="logout()">Logout</button>
-</section>
-
-    <!-- Navbar -->
-    <nav id="navbar">
-        <div class="logo">Dozz12 Website</div>
-        <ul class="nav-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#services">Galeri</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-
-    <!-- Hero Section -->
+  <!-- Hero Section -->
     <header id="home">
         <div class="hero-text">
             <h1>Selamat Datang di Website Gw!</h1>
@@ -88,5 +50,41 @@
     <!-- Tombol Scroll ke Atas -->
     <button id="scrollToTop">⬆</button>
 
-</body>
+</body> <!-- Login Page -->
+<section id="login-page" class="auth-page">
+    <h2>Login</h2>
+    <form id="login-form">
+        <input type="email" id="login-email" placeholder="Email" required>
+        <input type="password" id="login-password" placeholder="Password" required>
+        <button type="submit">Login</button>
+    </form>
+    <p>Belum punya akun? <a href="#" onclick="showSignUp()">Daftar</a></p>
+</section>
+
+<!-- Sign Up Page -->
+<section id="signup-page" class="auth-page">
+    <h2>Sign Up</h2>
+    <form id="signup-form">
+        <input type="email" id="signup-email" placeholder="Email" required>
+        <input type="password" id="signup-password" placeholder="Password" required>
+        <button type="submit">Sign Up</button>
+    </form>
+    <p>Sudah punya akun? <a href="#" onclick="showLogin()">Login</a></p>
+</section>
+
+<!-- Account Page -->
+<section id="account-page" class="auth-page">
+    <h2>Welcome, <span id="user-email"></span>!</h2>
+    <button onclick="logout()">Logout</button>
+</section>
+
+    <!-- Navbar -->
+    <nav id="navbar">
+        <div class="logo">Dozz12 Website</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Galeri</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 </html>
